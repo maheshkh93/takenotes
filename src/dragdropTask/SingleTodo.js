@@ -57,7 +57,7 @@ const SingleTodo = ({ index, todo, todos, setTodos }) => {
                 }
               }}
             >
-              e
+              edit
             </span>
           </div>
         </form>

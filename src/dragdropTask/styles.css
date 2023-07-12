@@ -1,4 +1,4 @@
-.pagebutton{
+.pagebutton {
   width: 100px;
   max-height: 40px;
   border-radius: 40px;
@@ -8,15 +8,10 @@
   color: white;
   align-items: center;
   display: flex;
-  
 }
 
-
-
-
-
 .task-App {
-  width: 400px;
+  width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -78,12 +73,10 @@
 }
 
 .container {
-  width: 95%;
-
+  width: 90%;
   display: flex;
   margin-top: 10px;
   justify-content: space-between;
-  align-items: flex-start;
 }
 
 .todos {
@@ -93,8 +86,8 @@
   width: 90%;
   height: 300px;
   padding: 10px;
-  background-color: rgba(50, 195, 205,1);
-  overflow: hidden scroll ;
+  margin: 20px;
+  background-color: rgba(50, 195, 205, 1);
 }
 
 .dragactive {
@@ -102,11 +95,11 @@
 }
 
 .dragcomplete {
-  background-color: rgba(255, 38, 0,1);
+  background-color: rgba(255, 38, 0, 1);
 }
 
 .remove {
-  background-color: rgba(235, 103, 80,1);
+  background-color: rgba(235, 103, 80, 1);
 }
 
 .todos__heading {
@@ -120,8 +113,9 @@
   border-radius: 5px;
   padding: 5px;
   margin-top: 15px;
-  background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg");
+  background-color: rgb(253, 147, 26);
   transition: 0.2s;
+  cursor: pointer;
 }
 
 .drag {
@@ -150,23 +144,16 @@
   cursor: pointer;
 }
 
-
-
-  .container {
-    width: 90%;
-    flex-direction: column;
-  }
-  .todos {
-    width: 95%;
-    margin-bottom: 10px;
-  }
+.todos {
+  width: 95%;
+  margin-bottom: 10px;
+}
 
 .heading {
   text-transform: uppercase;
   font-size: 30px;
-  margin: 5px ;
+  margin: 5px;
   color: white;
   /* z-index: 1; */
   text-align: center;
 }
-
